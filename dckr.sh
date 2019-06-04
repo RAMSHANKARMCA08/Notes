@@ -1,3 +1,5 @@
+#Copy the script to /home/centos
+#Execute the file as sh dckr.sh
 yum update -y
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 cat /etc/yum.repos.d/docker-ce.repo
