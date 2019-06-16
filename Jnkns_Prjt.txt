@@ -1,0 +1,17 @@
+Jenkins_Project
+
+1. Click "New Item" from dashboard
+2. Enter a name:First Project
+3. Select Freestyle Project
+4. Enter Description
+5. Choose Source Code Management as Git
+	1. Repositry :https://github.com/devopssampath/Maven-Demo.git
+6. In the Build Tab
+	1. Select Maven version as 'Maven'
+	2. Goals 'clean install'
+7. Save the Project using Save button
+
+8. Now the dashboard will display the list of projects
+9. Choose the project to be built
+10. Click 'Build Now'
+11. **/*.war
